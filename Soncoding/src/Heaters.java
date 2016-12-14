@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
 
 public class Heaters {
 	// Source : https://leetcode.com/problems/heaters/
@@ -29,6 +31,27 @@ public class Heaters {
 	 * Explanation: The two heater was placed in the position 1 and 4. We need to use radius 1 standard, then all the houses can be warmed.
 	 */
 	
+	
+	/**
+	 * Created on 2016/12/14
+	 */
+	public static int findRadiusTreeSet(int[] houses, int[] heaters) {
+		int max = -1;
+		TreeSet<Integer> heatersTreeSet = new TreeSet<>(Arrays.stream(heaters).boxed().collect( Collectors.toList() ) );
+		for(int house : houses){
+			int floor = Integer.MAX_VALUE, ceiling = Integer.MAX_VALUE;
+			if(heatersTreeSet.floor(house) != null)
+			    floor = heatersTreeSet.floor(house);
+			if(heatersTreeSet.ceiling(house) != null)
+				ceiling = heatersTreeSet.ceiling(house);
+			
+			int dist1 = Math.abs(house - floor);
+			int dist2 = Math.abs(house - ceiling);
+			int dist = Math.min(dist1, dist2);
+			max = Math.max(dist, max);
+		}
+		return max;
+	}
 	/**
 	 * Created on 2016/12/13
 	 */
@@ -60,6 +83,10 @@ public class Heaters {
 	public static void main(String[] args){
 		int[] houses = {282475249,622650073,984943658,144108930,470211272,101027544,457850878,458777923};
 		int[] heaters = {823564440,115438165,784484492,74243042,114807987,137522503,441282327,16531729,823378840,143542612};
+		
+//		int[] houses = {1, 2, 3, 4};
+//		int[] heaters = {1, 4};
 		System.out.println(findRadius(houses, heaters));
+		System.out.println(findRadiusTreeSet(houses,heaters));
 	}
 }
