@@ -9,3 +9,5 @@
 | 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Java](https://github.com/ErickRyu/Algorithm/blob/master/Soncoding/src/BullsAndCows.java) | Easy |
 | 467 | [Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/) | [Java](https://github.com/ErickRyu/Algorithm/blob/master/Soncoding/src/UniqueSubstringsInWraparoundString.java) | Medium |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [Java](https://github.com/ErickRyu/Algorithm/blob/master/Soncoding/src/WordPattern.java) | Easy |
+| 475 | [Heaters](https://leetcode.com/problems/heaters/) | [Java](https://github.com/ErickRyu/Algorithm/blob/master/Soncoding/src/Heaters.java) | Easy |
+| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | [Java](https://github.com/ErickRyu/Algorithm/blob/master/Soncoding/src/ExcelSheetColumnTitle.java) | Easy |
