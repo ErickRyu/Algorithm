@@ -3,6 +3,8 @@
 ## Soncoding(Leet)
 | # | Title | Language | Difficulty |
 | --- | --- | --- | --- |
+| 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | [Java](https://github.com/ErickRyu/Algorithm/blob/master/Soncoding/src/_2017_03_02/MinimumAbsoluteDifferenceinBST.java) | Easy |
+| 529 | [Minesweeper](https://leetcode.com/problems/minesweeper) | [Java](https://github.com/ErickRyu/Algorithm/blob/master/Soncoding/src/_2017_03_02/Minesweeper.java) | Medium |
 | 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Java](https://github.com/ErickRyu/Algorithm/blob/master/Soncoding/src/_2017_02_23/ContiguousArray.java) | Medium |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital) | [Java](https://github.com/ErickRyu/Algorithm/blob/master/Soncoding/src/_2017_02_23/DetectCapital.java) | Easy |
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Java](https://github.com/ErickRyu/Algorithm/blob/master/Soncoding/src/_2017_02_16/FindLargestValueInEachTreeRow.java) | Easy|
