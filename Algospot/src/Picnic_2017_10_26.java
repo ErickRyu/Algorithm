@@ -67,7 +67,6 @@ public class Picnic_2017_10_26 {
             }
         }
 
-
         for (int j = 0; j < friendNum; j++) {
             if (!isFriend[firstFree][j] || matched[firstFree] || matched[j] || firstFree == j) continue;
             matched[firstFree] = true;
@@ -77,7 +76,6 @@ public class Picnic_2017_10_26 {
             matched[j] = false;
 
         }
-
         return countFriend;
     }
 }
