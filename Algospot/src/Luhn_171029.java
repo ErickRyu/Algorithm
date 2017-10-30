@@ -23,5 +23,6 @@ public class Luhn_171029 {
         assertTrue(luhn(2121));
         assertTrue(luhn(811111111));
         assertFalse(luhn(5050));
+        assertTrue(luhn(917567));
     }
 }
